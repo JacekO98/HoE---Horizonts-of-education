@@ -11,7 +11,8 @@ namespace HoE.Plugins.InMemory
         {
             _teachers = new List<Teacher>()
             {
-                new Teacher {T_ID = "T01", Name = "Katarzyna", Lastname = "Sikora"}
+                new Teacher {T_ID = "T01", Name = "Katarzyna", Lastname = "Sikora"},
+                new Teacher {T_ID = "T02", Name = "Magdalena", Lastname = "Sikora"}
             };
         }
 
@@ -21,6 +22,14 @@ namespace HoE.Plugins.InMemory
             return Task.CompletedTask;
         }
 
-        
+        public Task<IEnumerable<Teacher>> GetTeachersByNameAsync(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task ViewTeachersByNameAsync(Teacher teacher)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
