@@ -1,4 +1,7 @@
 ﻿using HoE.CoreBusiness;
+using HoE.UseCase.PluginInterfaces;
+
+
 namespace HoE.Plugins.InMemory
 {
     public class TeachersRepository : ITeachersRepository
@@ -8,8 +11,16 @@ namespace HoE.Plugins.InMemory
         {
             _teachers = new List<Teacher>()
             {
-                new Teacher {}
+                new Teacher {T_ID = "T01", Name = "Katarzyna", Lastname = "Sikora"}
             };
         }
+
+        public Task AddTeacherAsync(Teacher teacher)
+        {
+            _teachers.Add(teacher);
+            return Task.CompletedTask;
+        }
+
+        
     }
 }

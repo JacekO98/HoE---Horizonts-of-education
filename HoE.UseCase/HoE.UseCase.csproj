@@ -10,4 +10,8 @@
     <Folder Include="PluginInterfaces\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HoE.CoreBusiness\HoE.CoreBusiness.csproj" />
+  </ItemGroup>
+
 </Project>

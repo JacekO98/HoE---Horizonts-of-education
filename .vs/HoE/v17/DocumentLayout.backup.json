@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\teachers\\addteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\teachers\\addteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|solutionrelative:hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\teachers\\addteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\teachers\\addteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\hoe.usecase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TeachersRepository.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
               "RelativeDocumentMoniker": "HoE.Plugins.InMemory\\TeachersRepository.cs",
@@ -62,8 +62,7 @@
               "RelativeToolTip": "HoE.Plugins.InMemory\\TeachersRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T15:44:39.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T15:44:39.652Z"
             },
             {
               "$type": "Document",
@@ -79,15 +78,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AddTeacherUseCase.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\Teachers\\AddTeacherUseCase.cs",
               "RelativeDocumentMoniker": "HoE.UseCase\\Teachers\\AddTeacherUseCase.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\Teachers\\AddTeacherUseCase.cs",
               "RelativeToolTip": "HoE.UseCase\\Teachers\\AddTeacherUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T15:32:19.713Z"
+              "WhenOpened": "2025-11-14T15:32:19.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Teacher.cs",
               "RelativeDocumentMoniker": "HoE.CoreBusiness\\Teacher.cs",

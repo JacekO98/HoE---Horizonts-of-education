@@ -7,14 +7,64 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "HoE/1.0.0": {
+        "dependencies": {
+          "HoE.CoreBusiness": "1.0.0",
+          "HoE.Plugins.InMemory": "1.0.0",
+          "HoE.UseCase": "1.0.0"
+        },
         "runtime": {
           "HoE.dll": {}
+        }
+      },
+      "HoE.CoreBusiness/1.0.0": {
+        "runtime": {
+          "HoE.CoreBusiness.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HoE.Plugins.InMemory/1.0.0": {
+        "dependencies": {
+          "HoE.UseCase": "1.0.0"
+        },
+        "runtime": {
+          "HoE.Plugins.InMemory.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HoE.UseCase/1.0.0": {
+        "dependencies": {
+          "HoE.CoreBusiness": "1.0.0"
+        },
+        "runtime": {
+          "HoE.UseCase.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "HoE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HoE.CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HoE.Plugins.InMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HoE.UseCase/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
