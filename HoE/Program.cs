@@ -1,12 +1,13 @@
 using HoE.Components;
-
+using HoE.Plugins.InMemory;
+using HoE.UseCase.PluginInterfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
 
-builder.Services.AddSingleton<ITeacherRepository, TeacherRepository>();
+builder.Services.AddSingleton<ITeachersRepository, TeachersRepository>();
 
 var app = builder.Build();
 

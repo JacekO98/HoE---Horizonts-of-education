@@ -7,11 +7,19 @@ C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.deps.json
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.runtimeconfig.json
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.dll
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.pdb
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.CoreBusiness.dll
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.Plugins.InMemory.dll
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.UseCase.dll
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.CoreBusiness.pdb
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.Plugins.InMemory.pdb
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\bin\Debug\net8.0\HoE.UseCase.pdb
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.csproj.AssemblyReference.cache
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.AssemblyInfoInputs.cache
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.AssemblyInfo.cs
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.csproj.CoreCompileInputs.cache
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.sourcelink.json
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\scopedcss\bundle\HoE.styles.css
@@ -26,6 +34,7 @@ C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\staticwebassets\msbuild
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HoE.props
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.csproj.Up2Date
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.dll
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\refint\HoE.dll
 C:\Users\jacuu\source\repos\HoE\HoE\HoE\obj\Debug\net8.0\HoE.pdb
