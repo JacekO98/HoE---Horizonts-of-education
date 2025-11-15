@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HoE.CoreBusiness\HoE.CoreBusiness.csproj" />
+    <ProjectReference Include="..\HoE.Plugins.InMemory\HoE.Plugins.InMemory.csproj" />
+    <ProjectReference Include="..\HoE.UseCase\HoE.UseCase.csproj" />
+  </ItemGroup>
+
 </Project>

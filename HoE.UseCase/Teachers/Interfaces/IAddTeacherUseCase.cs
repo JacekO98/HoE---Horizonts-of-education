@@ -1,4 +1,7 @@
-﻿namespace HoE.UseCase.Teachers.Interfaces
+﻿using HoE.CoreBusiness;
+
+
+namespace HoE.UseCase.Teachers.Interfaces
 {
     public interface IAddTeacherUseCase
     {

@@ -1,4 +1,5 @@
-﻿
+﻿using HoE.UseCase.PluginInterfaces;
+using HoE.CoreBusiness;
 using HoE.UseCase.Teachers.Interfaces;
 
 namespace HoE.UseCase.Teachers
@@ -14,7 +15,7 @@ namespace HoE.UseCase.Teachers
 
         public async Task ExecuteAsync(Teacher teacher)
         {
-            await this.teachersRepository.ExecuteAsync(teacher);
+            await this.teachersRepository.AddTeacherAsync(teacher);
         }
     }
 }
