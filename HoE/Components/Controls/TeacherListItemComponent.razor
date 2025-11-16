@@ -1,0 +1,13 @@
+﻿
+@if (this.Teacher is not null){
+    <tr>
+        <td>@Teacher.Picture</td>
+        <td>@Teacher.Name</td>
+        <td>@Teacher.Lastname</td>
+    </tr>
+}
+
+@code {
+    [Parameter]
+    public Teacher? Teacher { get; set; }
+}

@@ -9,5 +9,7 @@ namespace HoE.CoreBusiness
 
         public string Lastname { get; set; }
 
+        public string Picture { get; set; }
+
     }
 }
