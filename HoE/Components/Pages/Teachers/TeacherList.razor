@@ -1,0 +1,20 @@
+﻿@page "/teachers"
+<h3>Lista nauczycieli Horyzontów edukacji</h3>
+<i class="bi bi-webcam"></i>
+<EditForm Model="teacherNameToSearch" FormName="formSearch">
+    <div class="input-group">
+        <InputText
+        class="form-control"
+        placeholder="Prosze wpisać imię i nazwisko szukanego nauczyciela"
+        @bind-Value="this.teacherNameToSearch">
+        </InputText>
+        <button type="submit" class="btn-success">Wyszukaj</button>
+    </div>
+</EditForm>
+
+<TeacherListComponent SearchTeacherFilter="@teacherNameToSearch"></TeacherListComponent>
+
+@code {
+    [SupplyParameterFromForm]
+    private string teacherNameToSearch { get; set; } = string.Empty;
+}

@@ -1,6 +1,8 @@
 using HoE.Components;
 using HoE.Plugins.InMemory;
 using HoE.UseCase.PluginInterfaces;
+using HoE.UseCase.Teachers;
+using HoE.UseCase.Teachers.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents();
 
 builder.Services.AddSingleton<ITeachersRepository, TeachersRepository>();
+builder.Services.AddTransient<IViewTeachersByNameUseCase, ViewTeachersByNameUseCase>();
 
 var app = builder.Build();
 
