@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HoE.Plugins", "HoE.Plugins"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoE.Plugins.InMemory", "HoE.Plugins.InMemory\HoE.Plugins.InMemory.csproj", "{496E5803-0C32-43B5-B290-194929DE1004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoE.Plugins.EFCoreSqlServer", "HoE.Plugins\HoE.Plugins.EFCoreSqlServer\HoE.Plugins.EFCoreSqlServer.csproj", "{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,11 +37,16 @@ Global
 		{496E5803-0C32-43B5-B290-194929DE1004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{496E5803-0C32-43B5-B290-194929DE1004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{496E5803-0C32-43B5-B290-194929DE1004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{496E5803-0C32-43B5-B290-194929DE1004} = {7085A894-9805-4F55-A469-9C7162823871}
+		{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915} = {7085A894-9805-4F55-A469-9C7162823871}
 	EndGlobalSection
 EndGlobal

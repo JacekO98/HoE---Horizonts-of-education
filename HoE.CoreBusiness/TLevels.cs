@@ -1,7 +1,7 @@
 ﻿
 namespace HoE.CoreBusiness
 {
-    public class Teachers_Levels
+    public class TLevels
     {
         public string T_ID { get; set; }
 

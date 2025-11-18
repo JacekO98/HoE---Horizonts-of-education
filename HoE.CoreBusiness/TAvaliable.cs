@@ -1,7 +1,7 @@
 ﻿
 namespace HoE.CoreBusiness
 {
-    internal class TAvaliable
+    public class TAvaliable
     {
         public string T_ID { get; set; }
 
