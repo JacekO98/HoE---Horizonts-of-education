@@ -14,5 +14,7 @@ namespace HoE.CoreBusiness
         public string Levels { get; set; }
 
         public int Cost { get; set; }
+
+        public List<SummaryTable> SummaryTable { get; set; } = new List<SummaryTable>();
     }
 }

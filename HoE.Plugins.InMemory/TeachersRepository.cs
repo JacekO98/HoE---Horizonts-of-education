@@ -11,8 +11,7 @@ namespace HoE.Plugins.InMemory
         {
             _teachers = new List<Teacher>()
             {
-                new Teacher {T_ID = "T01", Name = "Katarzyna", Lastname = "Sikora", Picture ="erg"},
-                new Teacher {T_ID = "T02", Name = "Magdalena", Lastname = "Sikora", Picture ="erg"}
+                
             };
         }
 

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\summarytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\summarytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}|HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins\\hoe.plugins.efcoresqlserver\\hoecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}|HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj|solutionrelative:hoe.plugins\\hoe.plugins.efcoresqlserver\\hoecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\tlevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\tlevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|solutionrelative:hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\summarytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\summarytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,52 +25,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 228,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 214,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SummaryTable.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\SummaryTable.cs",
               "RelativeDocumentMoniker": "HoE.CoreBusiness\\SummaryTable.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\SummaryTable.cs",
               "RelativeToolTip": "HoE.CoreBusiness\\SummaryTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:35:11.197Z",
+              "WhenOpened": "2025-11-29T15:24:29.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Level.cs",
+              "RelativeDocumentMoniker": "HoE.CoreBusiness\\Level.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Level.cs",
+              "RelativeToolTip": "HoE.CoreBusiness\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:10:16.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TeachersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "RelativeDocumentMoniker": "HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "RelativeToolTip": "HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:01:10.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HoEContext.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
               "RelativeDocumentMoniker": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
               "RelativeToolTip": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:04:10.962Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 172,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TLevels.cs",
-              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\TLevels.cs",
-              "RelativeDocumentMoniker": "HoE.CoreBusiness\\TLevels.cs",
-              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\TLevels.cs",
-              "RelativeToolTip": "HoE.CoreBusiness\\TLevels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:12:39.692Z",
+              "WhenOpened": "2025-11-29T14:59:16.366Z",
               "EditorCaption": ""
             }
           ]
