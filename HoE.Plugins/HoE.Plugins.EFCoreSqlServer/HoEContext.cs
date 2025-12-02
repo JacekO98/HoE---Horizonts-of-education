@@ -5,6 +5,10 @@ namespace HoE.Plugins.EFCoreSqlServer
 {
     public class HoEContext : DbContext
     {
+        public HoEContext(DbContextOptions<HoEContext> options): base(options)
+        {
+
+        }
         public DbSet<Kalendar>? Kalendars { get; set; }
 
         public DbSet<Level>? Levels { get; set; }
@@ -64,8 +68,8 @@ namespace HoE.Plugins.EFCoreSqlServer
 
             //Seeding data
             modelBuilder.Entity<Teacher>().HasData(
-                new Teacher { T_ID = "T01", Name = "Katarzyna Sikora", Picture = "erg" },
-                new Teacher { T_ID = "T02", Name = "Magdalena Sikora", Picture = "erg" }
+                new Teacher { T_ID = 01, Name = "Katarzyna Sikora", Picture = "erg" },
+                new Teacher { T_ID = 02, Name = "Magdalena Sikora", Picture = "erg" }
             );
 
         }

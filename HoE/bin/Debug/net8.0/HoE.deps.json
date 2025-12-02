@@ -9,6 +9,7 @@
       "HoE/1.0.0": {
         "dependencies": {
           "HoE.CoreBusiness": "1.0.0",
+          "HoE.Plugins.EFCoreSqlServer": "1.0.0",
           "HoE.Plugins.InMemory": "1.0.0",
           "HoE.UseCase": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
@@ -860,6 +861,18 @@
           }
         }
       },
+      "HoE.Plugins.EFCoreSqlServer/1.0.0": {
+        "dependencies": {
+          "HoE.CoreBusiness": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "runtime": {
+          "HoE.Plugins.EFCoreSqlServer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "HoE.Plugins.InMemory/1.0.0": {
         "dependencies": {
           "HoE.UseCase": "1.0.0"
@@ -1416,6 +1429,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "HoE.CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HoE.Plugins.EFCoreSqlServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

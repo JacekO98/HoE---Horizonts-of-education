@@ -7,20 +7,48 @@
       "RelativeMoniker": "D:0:0:{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}|HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj|solutionrelative:hoe.plugins\\hoe.plugins.efcoresqlserver\\hoecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|solutionrelative:hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}|HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins\\hoe.plugins.efcoresqlserver\\migrations\\20251201165608_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBA929F-3D44-48E2-AAF5-6FD0FE7F3915}|HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj|solutionrelative:hoe.plugins\\hoe.plugins.efcoresqlserver\\migrations\\20251201165608_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\tlevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\tlevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\kalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\kalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\tavaliable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\tavaliable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\summarytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\summarytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\kalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|solutionrelative:hoe.corebusiness\\kalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|solutionrelative:hoe.plugins.inmemory\\teachersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,58 +58,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TeachersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
-              "RelativeDocumentMoniker": "HoE.Plugins.InMemory\\TeachersRepository.cs",
-              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
-              "RelativeToolTip": "HoE.Plugins.InMemory\\TeachersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "20251201165608_init.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\Migrations\\20251201165608_init.cs",
+              "RelativeDocumentMoniker": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\Migrations\\20251201165608_init.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\Migrations\\20251201165608_init.cs",
+              "RelativeToolTip": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\Migrations\\20251201165608_init.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T14:30:00.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Kalendar.cs",
-              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Kalendar.cs",
-              "RelativeDocumentMoniker": "HoE.CoreBusiness\\Kalendar.cs",
-              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Kalendar.cs",
-              "RelativeToolTip": "HoE.CoreBusiness\\Kalendar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T14:21:23.351Z",
+              "WhenOpened": "2025-12-01T16:56:08.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TLevels.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\TLevels.cs",
+              "RelativeDocumentMoniker": "HoE.CoreBusiness\\TLevels.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\TLevels.cs",
+              "RelativeToolTip": "HoE.CoreBusiness\\TLevels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:44:38.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Teacher.cs",
               "RelativeDocumentMoniker": "HoE.CoreBusiness\\Teacher.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Teacher.cs",
               "RelativeToolTip": "HoE.CoreBusiness\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T13:48:15.169Z",
+              "WhenOpened": "2025-12-01T16:44:33.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "TAvaliable.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\TAvaliable.cs",
+              "RelativeDocumentMoniker": "HoE.CoreBusiness\\TAvaliable.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\TAvaliable.cs",
+              "RelativeToolTip": "HoE.CoreBusiness\\TAvaliable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:44:23.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Student.cs",
+              "RelativeDocumentMoniker": "HoE.CoreBusiness\\Student.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Student.cs",
+              "RelativeToolTip": "HoE.CoreBusiness\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:43:54.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Kalendar.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Kalendar.cs",
+              "RelativeDocumentMoniker": "HoE.CoreBusiness\\Kalendar.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Kalendar.cs",
+              "RelativeToolTip": "HoE.CoreBusiness\\Kalendar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:37:16.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SummaryTable.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\SummaryTable.cs",
               "RelativeDocumentMoniker": "HoE.CoreBusiness\\SummaryTable.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\SummaryTable.cs",
               "RelativeToolTip": "HoE.CoreBusiness\\SummaryTable.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:35:11.197Z",
+              "WhenOpened": "2025-11-29T15:24:29.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Level.cs",
+              "RelativeDocumentMoniker": "HoE.CoreBusiness\\Level.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\Level.cs",
+              "RelativeToolTip": "HoE.CoreBusiness\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:10:16.08Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +172,48 @@
               "RelativeDocumentMoniker": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
               "RelativeToolTip": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA/wCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:04:10.962Z",
+              "WhenOpened": "2025-11-29T14:59:16.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Program.cs",
+              "RelativeDocumentMoniker": "HoE\\Program.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Program.cs",
+              "RelativeToolTip": "HoE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:22:00.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HoE\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\appsettings.Development.json",
+              "RelativeToolTip": "HoE\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T16:20:00.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeachersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "RelativeDocumentMoniker": "HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "RelativeToolTip": "HoE.Plugins.InMemory\\TeachersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:01:10.692Z",
               "EditorCaption": ""
             }
           ]

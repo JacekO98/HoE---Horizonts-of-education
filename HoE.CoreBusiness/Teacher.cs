@@ -1,9 +1,12 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace HoE.CoreBusiness
 {
     public class Teacher
     {
-        public string T_ID { get; set; }
+        [Key]
+        public int T_ID { get; set; }
 
         public string Name { get; set; }
 
@@ -11,7 +14,7 @@ namespace HoE.CoreBusiness
 
         public List<SummaryTable> SummaryTable { get; set; } = new List<SummaryTable>();
 
-        public List<TAvaliable> TAvaliable { get; set; } = new List<TAvaliable> { };
+        public List<TAvaliable> TAvaliable { get; set; } = new List<TAvaliable>();
 
     }
 }
