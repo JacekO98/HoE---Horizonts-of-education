@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\HoE.CoreBusiness\HoE.CoreBusiness.csproj" />
+    <ProjectReference Include="..\..\HoE.Plugins.InMemory\HoE.Plugins.InMemory.csproj" />
   </ItemGroup>
 
 </Project>

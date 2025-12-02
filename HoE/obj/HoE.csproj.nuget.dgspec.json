@@ -168,6 +168,9 @@
             "projectReferences": {
               "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj": {
                 "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj"
+              },
+              "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj": {
+                "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj"
               }
             }
           }

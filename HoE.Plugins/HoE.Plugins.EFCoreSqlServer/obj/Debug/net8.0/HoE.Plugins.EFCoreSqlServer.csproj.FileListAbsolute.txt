@@ -16,3 +16,7 @@ C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\obj\
 C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\obj\Debug\net8.0\HoE.Plugins.EFCoreSqlServer.pdb
 C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\obj\Debug\net8.0\HoE.Plugins.EFCoreSqlServer.genruntimeconfig.cache
 C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\obj\Debug\net8.0\ref\HoE.Plugins.EFCoreSqlServer.dll
+C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\bin\Debug\net8.0\HoE.Plugins.InMemory.dll
+C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\bin\Debug\net8.0\HoE.UseCase.dll
+C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\bin\Debug\net8.0\HoE.Plugins.InMemory.pdb
+C:\Users\jacuu\source\repos\HoE\HoE\HoE.Plugins\HoE.Plugins.EFCoreSqlServer\bin\Debug\net8.0\HoE.UseCase.pdb

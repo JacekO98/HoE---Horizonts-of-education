@@ -1487,6 +1487,32 @@
         "runtime": {
           "bin/placeholder/HoE.CoreBusiness.dll": {}
         }
+      },
+      "HoE.Plugins.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HoE.UseCase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HoE.Plugins.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HoE.Plugins.InMemory.dll": {}
+        }
+      },
+      "HoE.UseCase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HoE.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HoE.UseCase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HoE.UseCase.dll": {}
+        }
       }
     }
   },
@@ -4021,11 +4047,22 @@
       "type": "project",
       "path": "../../HoE.CoreBusiness/HoE.CoreBusiness.csproj",
       "msbuildProject": "../../HoE.CoreBusiness/HoE.CoreBusiness.csproj"
+    },
+    "HoE.Plugins.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../../HoE.Plugins.InMemory/HoE.Plugins.InMemory.csproj",
+      "msbuildProject": "../../HoE.Plugins.InMemory/HoE.Plugins.InMemory.csproj"
+    },
+    "HoE.UseCase/1.0.0": {
+      "type": "project",
+      "path": "../../HoE.UseCase/HoE.UseCase.csproj",
+      "msbuildProject": "../../HoE.UseCase/HoE.UseCase.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "HoE.CoreBusiness >= 1.0.0",
+      "HoE.Plugins.InMemory >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0"
@@ -4065,6 +4102,9 @@
           "projectReferences": {
             "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj": {
               "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj"
+            },
+            "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj": {
+              "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj"
             }
           }
         }
