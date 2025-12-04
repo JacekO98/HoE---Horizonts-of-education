@@ -71,15 +71,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HoE.Plugins.EFCoreSqlServer",
+              "Title": "HoE.Plugins.EFCoreSqlServer.csproj",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj",
               "RelativeDocumentMoniker": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj",
               "RelativeToolTip": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoE.Plugins.EFCoreSqlServer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-02T19:33:59.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T19:33:59.851Z"
             },
             {
               "$type": "Document",
@@ -89,7 +88,7 @@
               "RelativeDocumentMoniker": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\TeachersEFCoreRepository.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\TeachersEFCoreRepository.cs",
               "RelativeToolTip": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\TeachersEFCoreRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T19:34:56.344Z",
               "EditorCaption": ""
@@ -104,8 +103,7 @@
               "RelativeToolTip": "HoE.CoreBusiness\\Teacher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:44:33.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:44:33.466Z"
             },
             {
               "$type": "Document",
@@ -165,8 +163,7 @@
               "RelativeToolTip": "HoE.Plugins.InMemory\\TeachersRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T15:01:10.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T15:01:10.692Z"
             },
             {
               "$type": "Document",
@@ -178,8 +175,7 @@
               "RelativeToolTip": "HoE.Plugins\\HoE.Plugins.EFCoreSqlServer\\HoEContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T14:59:16.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T14:59:16.366Z"
             },
             {
               "$type": "Document",
