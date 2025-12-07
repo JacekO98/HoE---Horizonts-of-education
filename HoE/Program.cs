@@ -4,6 +4,7 @@ using HoE.Plugins.InMemory;
 using HoE.UseCase.PluginInterfaces;
 using HoE.UseCase.Teachers;
 using HoE.UseCase.Teachers.Interfaces;
+using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,16 @@ builder.Services.AddDbContextFactory<HoEContext>(options =>
 });
 builder.Services.AddRazorComponents();
 
-builder.Services.AddSingleton<ITeachersRepository, TeachersRepository>();
+if (builder.Environment.IsEnvironment("Testing"))
+{
+    StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
+    builder.Services.AddSingleton<ITeachersRepository, TeachersRepository>();
+    
+}
+else {
+    builder.Services.AddTransient<ITeachersRepository, TeachersEFCoreRepository>();
+    
+}
 builder.Services.AddTransient<IViewTeachersByNameUseCase, ViewTeachersByNameUseCase>();
 
 var app = builder.Build();
