@@ -27,6 +27,7 @@ else {
     
 }
 builder.Services.AddTransient<IViewTeachersByNameUseCase, ViewTeachersByNameUseCase>();
+builder.Services.AddSingleton<IAddTeacherUseCase, AddTeacherUseCase>();
 
 var app = builder.Build();
 

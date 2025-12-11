@@ -1,0 +1,33 @@
+﻿@page "/addteacher"
+@inject IAddTeacherUseCase AddTeacherUseCase
+@inject NavigationManager NavigationManager
+
+<h3>Dodaj Nauczyciela</h3>
+<br/>
+<EditForm Model ="teacher" FormName="formTeacher" OnValidSubmit="Save">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+
+    <div class="form-group">
+        <label for="name">Imię</label>
+        <InputText id="name"
+        @bind-Value="teacher.Name"
+        class="form-control">
+        </InputText>
+    </div>
+
+    <button type="submit" class="btn btn-success">Zapisz</button>
+    &nbsp;
+    <a href="/teachers" class="btn btn-danger">Anuluj</a>
+</EditForm>
+
+@code {
+    [SupplyParameterFromForm]
+    private Teacher teacher { get; set; } = new Teacher();
+    private async Task Save()
+    {
+        await AddTeacherUseCase.ExecuteAsync(teacher);
+        NavigationManager.NavigateTo("/teachers");
+    }
+
+}
