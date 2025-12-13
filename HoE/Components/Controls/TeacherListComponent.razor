@@ -26,11 +26,20 @@
 
 
 @code {
-    private List<Teacher>? teachers;
+    private List<TeacherViewModel>? teachers;
     [Parameter]
     public string? SearchTeacherFilter { get; set; }
     protected override async Task OnInitializedAsync(){
-        teachers = (await ViewTeachersByNameUseCase.ExecuteAsync(SearchTeacherFilter??string.Empty)).ToList();
+        teachers = (await ViewTeachersByNameUseCase
+        .ExecuteAsync(SearchTeacherFilter ?? string.Empty))
+    .Select(t => new TeacherViewModel
+        {
+            T_ID = t.T_ID,
+            Name = t.Name,
+            Picture = t.Picture,
+            // inne pola które potrzebujesz w UI
+        })
+    .ToList();
     }
 
 }

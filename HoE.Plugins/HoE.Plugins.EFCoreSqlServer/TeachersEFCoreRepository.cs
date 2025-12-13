@@ -18,9 +18,11 @@ namespace HoE.Plugins.EFCoreSqlServer
             this.contextFactory = contextFactory;
         }
 
-        public Task AddTeacherAsync(Teacher teacher)
+        public async Task AddTeacherAsync(Teacher teacher)
         {
-            throw new NotImplementedException();
+            using var db = this.contextFactory.CreateDbContext();
+            db.Teachers.Add(teacher);
+            await db.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Teacher>> GetTeachersByNameAsync(string name)

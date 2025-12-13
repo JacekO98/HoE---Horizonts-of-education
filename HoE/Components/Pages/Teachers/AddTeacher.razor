@@ -16,6 +16,14 @@
         </InputText>
     </div>
 
+    <div class="form-group">
+        <label for="zdj">Zdjęcie</label>
+        <InputText id="zdj"
+                   @bind-Value="teacher.Picture"
+                   class="form-control">
+        </InputText>
+    </div>
+
     <button type="submit" class="btn btn-success">Zapisz</button>
     &nbsp;
     <a href="/teachers" class="btn btn-danger">Anuluj</a>
@@ -23,10 +31,16 @@
 
 @code {
     [SupplyParameterFromForm]
-    private Teacher teacher { get; set; } = new Teacher();
+    private TeacherViewModel teacher { get; set; } = new TeacherViewModel();
     private async Task Save()
     {
-        await AddTeacherUseCase.ExecuteAsync(teacher);
+        var inv = new Teacher
+            {
+                T_ID = teacher.T_ID,
+                Name = teacher.Name,
+                Picture = teacher.Picture
+            };
+        await AddTeacherUseCase.ExecuteAsync(inv);
         NavigationManager.NavigateTo("/teachers");
     }
 

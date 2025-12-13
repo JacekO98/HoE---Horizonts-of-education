@@ -5,9 +5,9 @@
         <td>@Teacher.Name</td>
         <td>@Teacher.T_ID</td>
         <td>
-            <a class="btn btn-light"
+            <a class="btn btn-danger"
                href="/addteacher/@Teacher.T_ID">
-                Dodaj
+                Usuń
             </a>
         </td>
         
@@ -16,5 +16,5 @@
 
 @code {
     [Parameter]
-    public Teacher? Teacher { get; set; }
+    public TeacherViewModel? Teacher { get; set; }
 }
