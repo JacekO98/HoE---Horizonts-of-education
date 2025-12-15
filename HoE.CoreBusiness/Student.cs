@@ -10,8 +10,6 @@ namespace HoE.CoreBusiness
 
         public string Name { get; set; }
 
-        public string Lastname { get; set; }
-
         public List<SummaryTable> SummaryTable { get; set; } = new List<SummaryTable>();
     }
 }

@@ -4,6 +4,8 @@ using HoE.Plugins.InMemory;
 using HoE.UseCase.PluginInterfaces;
 using HoE.UseCase.Teachers;
 using HoE.UseCase.Teachers.Interfaces;
+using HoE.UseCase.Students;
+using HoE.UseCase.Students.Interfaces;
 using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,10 +28,16 @@ else {
     builder.Services.AddTransient<ITeachersRepository, TeachersEFCoreRepository>();
     
 }
+
+//Teachers Connections
 builder.Services.AddTransient<IViewTeachersByNameUseCase, ViewTeachersByNameUseCase>();
 builder.Services.AddSingleton<IAddTeacherUseCase, AddTeacherUseCase>();
 builder.Services.AddSingleton<IDeleteTeacherUseCase, DeleteTeacherUseCase>();
 builder.Services.AddTransient<IViewTeachersByIdUseCase, ViewTeachersByIdUseCase>();
+
+// Students Connections
+builder.Services.AddTransient<IStudentsRepository, StudentsRepository>();
+builder.Services.AddTransient<IViewStudentsByNameUseCase, ViewStudentsByNameUseCase>();
 
 var app = builder.Build();
 
