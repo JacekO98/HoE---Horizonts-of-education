@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C2cpssTP4FU=",
+  "dgSpecHash": "aOXSb2RqMpU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\HoE.csproj",
+  "projectFilePath": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE\\HoE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jacuu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jacuu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

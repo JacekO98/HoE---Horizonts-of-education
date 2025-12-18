@@ -10,3 +10,15 @@ C:\Users\jacuu\source\repos\HoE\HoE\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBu
 C:\Users\jacuu\source\repos\HoE\HoE\HoE.CoreBusiness\obj\Debug\net8.0\refint\HoE.CoreBusiness.dll
 C:\Users\jacuu\source\repos\HoE\HoE\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.pdb
 C:\Users\jacuu\source\repos\HoE\HoE\HoE.CoreBusiness\obj\Debug\net8.0\ref\HoE.CoreBusiness.dll
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\bin\Debug\net8.0\HoE.CoreBusiness.deps.json
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\bin\Debug\net8.0\HoE.CoreBusiness.dll
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\bin\Debug\net8.0\HoE.CoreBusiness.pdb
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.AssemblyInfo.cs
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.sourcelink.json
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.dll
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\refint\HoE.CoreBusiness.dll
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\HoE.CoreBusiness.pdb
+C:\Users\jacuu\repos\HoE---Horizonts-of-education\HoE.CoreBusiness\obj\Debug\net8.0\ref\HoE.CoreBusiness.dll

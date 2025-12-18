@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\HoE.UseCase.csproj": {}
+    "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.UseCase\\HoE.UseCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj": {
+    "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj",
+        "projectUniqueName": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj",
         "projectName": "HoE.CoreBusiness",
-        "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj",
+        "projectPath": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj",
         "packagesPath": "C:\\Users\\jacuu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\obj\\",
+        "outputPath": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.CoreBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\HoE.UseCase.csproj": {
+    "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.UseCase\\HoE.UseCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\HoE.UseCase.csproj",
+        "projectUniqueName": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.UseCase\\HoE.UseCase.csproj",
         "projectName": "HoE.UseCase",
-        "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\HoE.UseCase.csproj",
+        "projectPath": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.UseCase\\HoE.UseCase.csproj",
         "packagesPath": "C:\\Users\\jacuu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\obj\\",
+        "outputPath": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.UseCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj": {
-                "projectPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj"
+              "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj": {
+                "projectPath": "C:\\Users\\jacuu\\repos\\HoE---Horizonts-of-education\\HoE.CoreBusiness\\HoE.CoreBusiness.csproj"
               }
             }
           }
