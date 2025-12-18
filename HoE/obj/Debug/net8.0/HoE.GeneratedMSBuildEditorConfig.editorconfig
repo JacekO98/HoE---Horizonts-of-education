@@ -24,16 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/StudentListComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTdHVkZW50TGlzdENvbXBvbmVudC5yYXpvcg==
+[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Students/StudentListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTdHVkZW50c1xTdHVkZW50TGlzdENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/TeacherListComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyTGlzdENvbXBvbmVudC5yYXpvcg==
+[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Students/StudentListItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTdHVkZW50c1xTdHVkZW50TGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/TeacherListItemComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyTGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
+[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TeacherListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUZWFjaGVyTGlzdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TeacherListItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUZWFjaGVyTGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Pages/Error.razor]
