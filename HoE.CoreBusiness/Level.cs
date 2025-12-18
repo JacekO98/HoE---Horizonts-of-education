@@ -1,9 +1,12 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace HoE.CoreBusiness
 {
     public class Level
     {
-        public string T_ID { get; set; }
+        [Key]
+        public int T_ID { get; set; }
 
         public string SchoolType { get; set; }
 
@@ -14,5 +17,7 @@ namespace HoE.CoreBusiness
         public string Levels { get; set; }
 
         public int Cost { get; set; }
+
+        public List<SummaryTable> SummaryTable { get; set; } = new List<SummaryTable>();
     }
 }
