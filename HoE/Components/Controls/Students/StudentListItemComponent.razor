@@ -1,8 +1,11 @@
-﻿<h3>StudentListItemComponent</h3>
-<tr>
-    <td>Student.Name</td>
-    <td>Student.S_ID</td>
-</tr>
+﻿
+@if (this.Student is not null){
+    <tr>
+        <td>@Student.Name</td>
+        <td>@Student.S_ID</td>
+    </tr>
+}
+
 @code {
     [Parameter]
     public StudentViewModel? Student {get; set;}

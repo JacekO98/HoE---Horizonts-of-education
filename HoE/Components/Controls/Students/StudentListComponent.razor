@@ -1,7 +1,7 @@
 ﻿@using HoE.UseCase.Students.Interfaces
 @inject IViewStudentsByNameUseCase ViewStudentsByNameUseCase
 
-<h3>StudentListComponent</h3>
+
 <table class="table">
     <thead>
         <tr>
@@ -11,10 +11,14 @@
     </thead>
     
     <tbody>
-        @foreach (var stu in students)
-        {
-            <StudentListItemComponent Student ="stu"></StudentListItemComponent>
+        @if (students is not null && students.Count > 0){
+            @foreach (var stu in students)
+            {
+                <StudentListItemComponent Student="stu"></StudentListItemComponent>
+            }
+
         }
+        
         
     </tbody>
 
