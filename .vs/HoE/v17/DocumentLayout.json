@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\components\\pages\\teachers\\teacherlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\components\\pages\\teachers\\teacherlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\components\\pages\\students\\studentlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\components\\pages\\students\\studentlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeacherList.razor",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Teachers\\TeacherList.razor",
+              "RelativeDocumentMoniker": "HoE\\Components\\Pages\\Teachers\\TeacherList.razor",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Teachers\\TeacherList.razor",
+              "RelativeToolTip": "HoE\\Components\\Pages\\Teachers\\TeacherList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T14:38:48.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentList.razor",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Students\\StudentList.razor",
+              "RelativeDocumentMoniker": "HoE\\Components\\Pages\\Students\\StudentList.razor",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Students\\StudentList.razor",
+              "RelativeToolTip": "HoE\\Components\\Pages\\Students\\StudentList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T14:38:47.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
