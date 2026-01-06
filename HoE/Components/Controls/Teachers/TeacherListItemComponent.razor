@@ -1,0 +1,20 @@
+﻿
+@if (this.Teacher is not null){
+    <tr>
+        <td>@Teacher.Picture</td>
+        <td>@Teacher.Name</td>
+        <td>@Teacher.T_ID</td>
+        <td>
+            <a class="btn btn-danger"
+               href="/deleteteacher/@Teacher.T_ID">
+                Usuń
+            </a>
+        </td>
+        
+    </tr>
+}
+
+@code {
+    [Parameter]
+    public TeacherViewModel? Teacher { get; set; }
+}

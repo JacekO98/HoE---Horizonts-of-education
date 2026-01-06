@@ -1,0 +1,45 @@
+﻿@using HoE.UseCase.Teachers.Interfaces
+@inject IViewTeachersByNameUseCase ViewTeachersByNameUseCase
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Zdjęcie</th>
+            <th>Imię</th>
+            <th>T_ID</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (teachers is not null && teachers.Count > 0)
+        {
+            foreach (var inv in teachers){
+                <TeacherListItemComponent Teacher="inv"></TeacherListItemComponent>
+            }
+        }
+
+    </tbody>
+
+</table>
+
+
+
+
+@code {
+    private List<TeacherViewModel>? teachers;
+    [Parameter]
+    public string? SearchTeacherFilter { get; set; }
+    protected override async Task OnInitializedAsync(){
+        teachers = (await ViewTeachersByNameUseCase
+        .ExecuteAsync(SearchTeacherFilter ?? string.Empty))
+    .Select(t => new TeacherViewModel
+        {
+            T_ID = t.T_ID,
+            Name = t.Name,
+            Picture = t.Picture,
+            // inne pola które potrzebujesz w UI
+        })
+    .ToList();
+    }
+
+}
