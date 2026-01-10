@@ -3,32 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HoE.CoreBusiness;
 using HoE.UseCase.PluginInterfaces;
+using HoE.UseCase.TAvaliable.Interfaces;
 
-namespace HoE.UseCase.TAvaliables
+namespace HoE.UseCase.TAvaliable
 {
-    public class TeacherBookSlot
+    public class TeacherBookSlot : ITeacherBookSlot
     {
-        private readonly ITAvaliableRepository _tAvaliableRepository;
+        private readonly ITAvaliableNewRepository _tAvaliableNewRepository;
 
-        public TeacherBookSlot(ITAvaliableRepository _tAvaliableRepository)
+        public TeacherBookSlot(ITAvaliableNewRepository _tAvaliableNewRepository)
         {
-            _tAvaliableRepository = tAvaliableRepository;
+            _tAvaliableNewRepository = _tAvaliableNewRepository;
         }
 
         public async Task ExecuteAsync(int T_ID, DateOnly StartDate, TimeOnly StartTime)
         {
-            var existingSlot = await _tAvaliableRepository.GetSlot(int T_ID, DateOnly StartDate, TimeOnly StartTime);
-            var pickedSlot = existingSlot.FirstOrdefault(s => s.StartDate =  StartDate);
+            var existingSlot = await _tAvaliableNewRepository.GetSlot(T_ID, StartDate, StartTime);
+            var pickedSlot = existingSlot.FirstOrdefault(s => s.StartDate = StartDate);
 
             if (pickedSlot != null)
             {
-                await _tAvaliableRepository.DeteleSlotAsync(pickedSlot.Avaliable_ID);
+                await _tAvaliableNewRepository.DeteleSlotAsync(pickedSlot.Avaliable_ID);
             }
             else
             {
                 var newSlot = new TAvaliableNew(T_ID, StartDate, StartTime);
-                await _tAvaliableRepository.AddSlot(newSlot);
+                await _tAvaliableNewRepository.AddSlot(newSlot);
             }
 
         }

@@ -6,23 +6,16 @@ using System.Threading.Tasks;
 
 namespace HoE.CoreBusiness
 {
-    internal class AvaliabilitySlot
+    public class TAvaliableNew
     {
         //Tu może być problem z typami danych bo robię inaczej niż chat
-        public int Avaliable_ID { get; private set; }
-        public int T_ID { get; private set; }
-        public DateOnly StartDate { get; private set; }
-        public TimeOnly StartTime { get; private set; }
-        public TimeOnly EndTime { get; private set; }
+        public int Avaliable_ID { get; set; }
+        public int T_ID { get; set; }
+        public DateOnly StartDate { get; set; }
+        public TimeOnly StartTime { get; set; }
+        public TimeOnly EndTime { get; set; }
 
-        public AvaliabilitySlot(int t_ID, DateOnly startTime, TimeOnly endTime)
-        {
- 
-            int T_ID = t_ID;
-            DateOnly StartTime = startTime;
-            TimeOnly EndTime = endTime;
-
-        }
+      
 
 
     }
