@@ -18,19 +18,18 @@ namespace HoE.UseCase.TAvaliable
             _tAvaliableNewRepository = _tAvaliableNewRepository;
         }
 
-        public async Task ExecuteAsync(int T_ID, DateOnly StartDate, TimeOnly StartTime)
-        {
-            var existingSlot = await _tAvaliableNewRepository.GetSlot(T_ID, StartDate, StartTime);
-            var pickedSlot = existingSlot.FirstOrdefault(s => s.StartDate = StartDate);
+        public async Task ExecuteAsync(TAvaliableNew tAvaliableNew)
+        {           
+            
 
-            if (pickedSlot != null)
+            if (tAvaliableNew != null)
             {
-                await _tAvaliableNewRepository.DeteleSlotAsync(pickedSlot.Avaliable_ID);
+                await _tAvaliableNewRepository.DeteleSlotAsync(tAvaliableNew.Avaliable_ID);
             }
             else
             {
-                var newSlot = new TAvaliableNew(T_ID, StartDate, StartTime);
-                await _tAvaliableNewRepository.AddSlot(newSlot);
+                
+                await _tAvaliableNewRepository.AddSlot(tAvaliableNew);
             }
 
         }

@@ -26,17 +26,13 @@ namespace HoE.Plugins.InMemory
             throw new NotImplementedException();
         }
 
-        public Task AddSlot(TAvaliableNew newSlot)
-        {
-            throw new NotImplementedException();
-        }
-
+        
         public Task DeteleSlotAsync(object avaliable_ID)
         {
             throw new NotImplementedException();
         }
 
-        public Task GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime)
+        public Task<TAvaliableNew> GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime)
         {
             throw new NotImplementedException();
         }

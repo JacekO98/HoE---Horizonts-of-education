@@ -11,6 +11,6 @@ namespace HoE.UseCase.PluginInterfaces
     {
         Task AddSlot(TAvaliableNew newSlot);
         Task DeteleSlotAsync(object avaliable_ID);
-        Task GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime);
+        Task<TAvaliableNew> GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime);
     }
 }
