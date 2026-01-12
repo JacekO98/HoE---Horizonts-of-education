@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\tavaliable\\interfaces\\iteacherbookslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\plugininterfaces\\itavaliablenewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\plugininterfaces\\itavaliablenewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\tavaliable\\teacherbookslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\tavaliable\\teacherbookslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.plugins.inmemory\\tavaliablenewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{496E5803-0C32-43B5-B290-194929DE1004}|HoE.Plugins.InMemory\\HoE.Plugins.InMemory.csproj|solutionrelative:hoe.plugins.inmemory\\tavaliablenewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\plugininterfaces\\itavaliablenewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\plugininterfaces\\itavaliablenewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34BBF989-623F-4349-8B33-199F9502715D}|HoE.CoreBusiness\\HoE.CoreBusiness.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.corebusiness\\tavaliablenew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,39 +47,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ITAvaliableNewRepository.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\PluginInterfaces\\ITAvaliableNewRepository.cs",
               "RelativeDocumentMoniker": "HoE.UseCase\\PluginInterfaces\\ITAvaliableNewRepository.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\PluginInterfaces\\ITAvaliableNewRepository.cs",
               "RelativeToolTip": "HoE.UseCase\\PluginInterfaces\\ITAvaliableNewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T11:30:17.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TeacherBookSlot.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\TAvaliable\\TeacherBookSlot.cs",
               "RelativeDocumentMoniker": "HoE.UseCase\\TAvaliable\\TeacherBookSlot.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\TAvaliable\\TeacherBookSlot.cs",
               "RelativeToolTip": "HoE.UseCase\\TAvaliable\\TeacherBookSlot.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T18:17:29.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TAvaliableNewRepository.cs",
               "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TAvaliableNewRepository.cs",
               "RelativeDocumentMoniker": "HoE.Plugins.InMemory\\TAvaliableNewRepository.cs",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.Plugins.InMemory\\TAvaliableNewRepository.cs",
               "RelativeToolTip": "HoE.Plugins.InMemory\\TAvaliableNewRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T18:16:01.1Z",
               "EditorCaption": ""
@@ -94,8 +94,7 @@
               "RelativeToolTip": "HoE.CoreBusiness\\TAvaliableNew.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T17:24:46.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T17:24:46.405Z"
             }
           ]
         }

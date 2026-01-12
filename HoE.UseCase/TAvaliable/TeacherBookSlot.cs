@@ -22,7 +22,7 @@ namespace HoE.UseCase.TAvaliable
         {           
             
 
-            if (tAvaliableNew != null)
+            if (_tAvaliableNewRepository.CheckExistingSlotAsync(tAvaliableNew) != null)
             {
                 await _tAvaliableNewRepository.DeteleSlotAsync(tAvaliableNew.Avaliable_ID);
             }

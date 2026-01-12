@@ -23,10 +23,16 @@ namespace HoE.Plugins.InMemory
 
         public Task AddSlot(TAvaliableNew newSlot)
         {
-            throw new NotImplementedException();
+            _avaliableNews.Add(newSlot);
+            return Task.CompletedTask;
         }
 
-        
+        public Task<TAvaliableNew?> CheckExistingSlotAsync(TAvaliableNew tAvaliableNew)
+        {
+            var existingSlot = _avaliableNews.FirstOrDefault(a => a.T_ID == tAvaliableNew.T_ID && a.StartDate == tAvaliableNew.StartDate && a.StartTime == tAvaliableNew.StartTime);
+            return Task.FromResult(existingSlot);
+        }
+
         public Task DeteleSlotAsync(object avaliable_ID)
         {
             throw new NotImplementedException();
