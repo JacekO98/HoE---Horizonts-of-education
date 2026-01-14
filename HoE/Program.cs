@@ -8,6 +8,8 @@ using HoE.UseCase.Students;
 using HoE.UseCase.Students.Interfaces;
 using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 using Microsoft.EntityFrameworkCore;
+using HoE.UseCase.TAvaliable.Interfaces;
+using HoE.UseCase.TAvaliable;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +40,10 @@ builder.Services.AddTransient<IViewTeachersByIdUseCase, ViewTeachersByIdUseCase>
 // Students Connections
 builder.Services.AddTransient<IStudentsRepository, StudentsRepository>();
 builder.Services.AddTransient<IViewStudentsByNameUseCase, ViewStudentsByNameUseCase>();
+
+//TeachersBookSlots Connections
+builder.Services.AddTransient<ITAvaliableNewRepository, TAvaliableNewRepository>();
+builder.Services.AddTransient<ITeacherBookSlot, TeacherBookSlot>();
 
 var app = builder.Build();
 

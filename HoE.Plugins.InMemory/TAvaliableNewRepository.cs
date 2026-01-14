@@ -20,7 +20,7 @@ namespace HoE.Plugins.InMemory
             };
 
         }
-
+        //W poniższych metodach trzeba będzie sprawdzić czy nie lepiej używać ID i na tej podstawie operować rekordami
         public Task AddSlot(TAvaliableNew newSlot)
         {
             _avaliableNews.Add(newSlot);
@@ -33,9 +33,10 @@ namespace HoE.Plugins.InMemory
             return Task.FromResult(existingSlot);
         }
 
-        public Task DeteleSlotAsync(object avaliable_ID)
+        public Task DeteleSlotAsync(TAvaliableNew tAvaliableNew)
         {
-            throw new NotImplementedException();
+            _avaliableNews.Remove(tAvaliableNew);
+            return Task.CompletedTask;
         }
 
         public Task<TAvaliableNew> GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime)
