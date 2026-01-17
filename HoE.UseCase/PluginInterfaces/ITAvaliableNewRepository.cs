@@ -11,7 +11,7 @@ namespace HoE.UseCase.PluginInterfaces
     {
         Task AddSlot(TAvaliableNew newSlot);
         Task<TAvaliableNew?> CheckExistingSlotAsync(TAvaliableNew tAvaliableNew);
-        Task DeteleSlotAsync(TAvaliableNew tAvaliableNew);
+        public Task DeleteSlotAsync(TAvaliableNew slot);
         Task<TAvaliableNew> GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime);
     }
 }

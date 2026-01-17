@@ -19,12 +19,14 @@ namespace HoE.UseCase.TAvaliable
         }
 
         public async Task ExecuteAsync(TAvaliableNew tAvaliableNew)
-        {           
-            
+        {
+            var existingSlot =
+                await _tAvaliableNewRepository.CheckExistingSlotAsync(tAvaliableNew);
 
-            if (_tAvaliableNewRepository.CheckExistingSlotAsync(tAvaliableNew) != null)
+
+            if (existingSlot != null)
             {
-                await _tAvaliableNewRepository.DeteleSlotAsync(tAvaliableNew);
+                await _tAvaliableNewRepository.DeleteSlotAsync(existingSlot);
             }
             else
             {

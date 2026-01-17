@@ -12,7 +12,7 @@ namespace HoE.Plugins.InMemory
     {
         private List<TAvaliableNew> _avaliableNews;
 
-        TAvaliableNewRepository()
+        public TAvaliableNewRepository()
         {
             _avaliableNews = new List<TAvaliableNew>()
             {
@@ -32,10 +32,13 @@ namespace HoE.Plugins.InMemory
             var existingSlot = _avaliableNews.FirstOrDefault(a => a.T_ID == tAvaliableNew.T_ID && a.StartDate == tAvaliableNew.StartDate && a.StartTime == tAvaliableNew.StartTime);
             return Task.FromResult(existingSlot);
         }
-
-        public Task DeteleSlotAsync(TAvaliableNew tAvaliableNew)
+        //Przeanalizować metode Delete jeszcze raz
+        public Task DeleteSlotAsync(TAvaliableNew slot)
         {
-            _avaliableNews.Remove(tAvaliableNew);
+            var toRemove = _avaliableNews.FirstOrDefault(a => a.Avaliable_ID == slot.Avaliable_ID);
+            if (toRemove != null)
+                _avaliableNews.Remove(toRemove);
+
             return Task.CompletedTask;
         }
 
