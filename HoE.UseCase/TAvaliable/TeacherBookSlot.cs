@@ -11,27 +11,27 @@ namespace HoE.UseCase.TAvaliable
 {
     public class TeacherBookSlot : ITeacherBookSlot
     {
-        private readonly ITAvaliableNewRepository _tAvaliableNewRepository;
+        private readonly ITAvaliableNewRepository tAvaliableNewRepository;
 
-        public TeacherBookSlot(ITAvaliableNewRepository _tAvaliableNewRepository)
+        public TeacherBookSlot(ITAvaliableNewRepository tAvaliableNewRepository)
         {
-            _tAvaliableNewRepository = _tAvaliableNewRepository;
+            this.tAvaliableNewRepository = tAvaliableNewRepository;
         }
 
         public async Task ExecuteAsync(TAvaliableNew tAvaliableNew)
         {
             var existingSlot =
-                await _tAvaliableNewRepository.CheckExistingSlotAsync(tAvaliableNew);
+                await tAvaliableNewRepository.CheckExistingSlotAsync(tAvaliableNew);
 
 
             if (existingSlot != null)
             {
-                await _tAvaliableNewRepository.DeleteSlotAsync(existingSlot);
+                await tAvaliableNewRepository.DeleteSlotAsync(existingSlot);
             }
             else
             {
                 
-                await _tAvaliableNewRepository.AddSlot(tAvaliableNew);
+                await tAvaliableNewRepository.AddSlot(tAvaliableNew);
             }
 
         }

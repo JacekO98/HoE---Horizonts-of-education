@@ -1,7 +1,25 @@
-﻿@page "/addteacheravability/{TeachId:int}"
+﻿@page "/teacher-availability"
 
-<h3>Wybierz swoją dostępność</h3>
+<div class="slots-grid">
+    @foreach (var slot in Slots)
+    {
+        <div class="slot @(slot.IsAvailable ? "available" : "unavailable")"
+             @onclick="() => OnSlotClicked(slot)">
+            @slot.StartTime.ToString("HH:mm")
+        </div>
+    }
+</div>
 
 @code {
+    private List<TAvaliableNewViewModel> Slots = new();
 
+    protected override async Task OnInitializedAsync()
+    {
+        GenerateTimeSlots();
+        await LoadExistingAvailability();
+    }
+
+    private void GenerateTimeSlots() { /* ... */ }
+    private Task LoadExistingAvailability() { /* ... */ }
+    private Task OnSlotClicked(AvailabilitySlotViewModel slot) { /* ... */ }
 }

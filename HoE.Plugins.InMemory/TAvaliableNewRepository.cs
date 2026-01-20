@@ -42,9 +42,19 @@ namespace HoE.Plugins.InMemory
             return Task.CompletedTask;
         }
 
+        public Task<TAvaliableNew> GetBookedSlots(int T_ID, DateOnly startD)
+        {
+            var bookedSlots = _avaliableNews.Where(s =>
+            s.T_ID == T_ID &&
+            s.StartDate == startD);
+            return Task.FromResult(bookedSlots);
+        }
+
         public Task<TAvaliableNew> GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime)
         {
             throw new NotImplementedException();
         }
+
+        
     }
 }

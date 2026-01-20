@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HoE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b69859ae46e537a3e26165ac5353e504578e7bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecb8622981fb4ab71670aaf8b081a57b80a81459")]
 [assembly: System.Reflection.AssemblyProductAttribute("HoE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HoE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
