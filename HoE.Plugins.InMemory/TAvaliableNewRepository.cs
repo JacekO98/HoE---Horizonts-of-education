@@ -42,12 +42,20 @@ namespace HoE.Plugins.InMemory
             return Task.CompletedTask;
         }
 
-        public Task<TAvaliableNew> GetBookedSlots(int T_ID, DateOnly startD)
+        public Task<List<TAvaliableNew>> GetBookedSlots(int T_ID, DateOnly startD, DateOnly endD)
         {
-            var bookedSlots = _avaliableNews.Where(s =>
-            s.T_ID == T_ID &&
-            s.StartDate == startD);
-            return Task.FromResult(bookedSlots);
+            var bookedSlotsList = new List<TAvaliableNew>();
+            for (var day = startD; day <= endD; day = day.AddDays(1))
+            {
+                var bookedDaySlot = _avaliableNews.Where(s =>
+                s.T_ID == T_ID &&
+                s.StartDate == day);
+                bookedSlotsList.AddRange(bookedDaySlot);
+                            
+
+            }
+            
+            return Task.FromResult(bookedSlotsList);
         }
 
         public Task<TAvaliableNew> GetSlot(int t_ID, DateOnly startDate, TimeOnly startTime)

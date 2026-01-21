@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HoE.Plugins.EFCoreSqlServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b69859ae46e537a3e26165ac5353e504578e7bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e3112c0ba307fc8509baea05cce4cfdafc82c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HoE.Plugins.EFCoreSqlServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HoE.Plugins.EFCoreSqlServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

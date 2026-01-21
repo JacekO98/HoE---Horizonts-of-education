@@ -23,7 +23,7 @@ namespace HoE.UseCase.TAvaliable
             var startD = DateOnly.FromDateTime(DateTime.Today);
             var endD = startD.AddDays(7);
             var results = new List<AvailabilityGridDay>();
-            var bookedSlots = await tAvaliableNewRepository.GetBookedSlots(T_ID, startD);
+            var bookedSlots = await tAvaliableNewRepository.GetBookedSlots(T_ID, startD, endD);
 
             for (var date = startD; date <= endD; date = date.AddDays(1))
             {
@@ -34,8 +34,8 @@ namespace HoE.UseCase.TAvaliable
                 while (startT < endT)
                 {
                     var isBooked = bookedSlots.Any(b => 
-                    b.StartDate = startD &&
-                    b.StartTime = startT);
+                    b.StartDate == date &&
+                    b.StartTime == startT);
 
                     daySlots.Add(new AvailabilityGridSlot
                     {
