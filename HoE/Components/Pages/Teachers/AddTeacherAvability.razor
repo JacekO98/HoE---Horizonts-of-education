@@ -1,3 +1,23 @@
-﻿@page "/teacher-availability"
+﻿@using HoE.Components.ViewModels
+
+@page "/teacher-availability/{TeachId:int}"
 
 
+<h3>Ustawienie dostępności nauczyciela</h3>
+
+<AvailabilityGrid
+Slots="Slots"
+OnSlotClicked="ToggleSlot" />
+
+@code{
+    [Parameter]
+    public int TeachId { get; set; }
+
+    private List<AvailabilitySlotViewModel> Slots = new();
+
+    protected override async Task OnInitializedAsync(){
+        GenerateTimeSlots();
+        await LoadBookedSlots();
+    }
+
+}

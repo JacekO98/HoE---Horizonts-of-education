@@ -32,16 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTdHVkZW50c1xTdHVkZW50TGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TAvailability/AvailabilityGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUQXZhaWxhYmlsaXR5XEF2YWlsYWJpbGl0eUdyaWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TeacherListComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUZWFjaGVyTGlzdENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TeacherListItemComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUZWFjaGVyTGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TeacherSlotsGrindComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUZWFjaGVyU2xvdHNHcmluZENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Pages/Error.razor]
@@ -83,6 +83,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Controls/Teachers/TAvailability/AvailabilitySlot.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xUZWFjaGVyc1xUQXZhaWxhYmlsaXR5XEF2YWlsYWJpbGl0eVNsb3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2dai8ablpw
 
 [C:/Users/jacuu/source/repos/HoE/HoE/HoE/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==

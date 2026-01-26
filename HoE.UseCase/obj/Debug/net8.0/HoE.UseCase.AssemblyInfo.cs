@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HoE.UseCase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e3112c0ba307fc8509baea05cce4cfdafc82c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b6960bca47bfee38aa42c130e48e206eb874125")]
 [assembly: System.Reflection.AssemblyProductAttribute("HoE.UseCase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HoE.UseCase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

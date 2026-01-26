@@ -44,6 +44,7 @@ builder.Services.AddTransient<IViewStudentsByNameUseCase, ViewStudentsByNameUseC
 //TeachersBookSlots Connections
 builder.Services.AddTransient<ITAvaliableNewRepository, TAvaliableNewRepository>();
 builder.Services.AddTransient<ITeacherBookSlot, TeacherBookSlot>();
+builder.Services.AddTransient<IGetTeacherAvailabilityGridUseCase, GetTeacherAvailabilityGridUseCase>();
 
 var app = builder.Build();
 

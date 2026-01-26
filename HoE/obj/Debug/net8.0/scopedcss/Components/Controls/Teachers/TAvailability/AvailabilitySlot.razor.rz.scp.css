@@ -1,0 +1,16 @@
+.slot[b-2dai8ablpw] {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+
+.booked[b-2dai8ablpw] {
+    background-color: #ff6b6b;
+}
+
+.free[b-2dai8ablpw] {
+    background-color: #51cf66;
+}

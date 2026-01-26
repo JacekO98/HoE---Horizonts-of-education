@@ -1,0 +1,19 @@
+﻿@using HoE.Components.ViewModels
+
+<div class="slot @(Slot.IsBooked ? "booked" : "free")"
+     @onclick="HandleClick">
+    @Slot.StartTime.ToString("HH:mm")
+</div>
+
+@code {
+    [Parameter] 
+    public AvailabilitySlotViewModel Slot { get; set; } = default!;
+
+    [Parameter] 
+    public EventCallback OnClick { get; set; }
+
+    private async Task HandleClick()
+    {
+        await OnClick.InvokeAsync();
+    }
+}
