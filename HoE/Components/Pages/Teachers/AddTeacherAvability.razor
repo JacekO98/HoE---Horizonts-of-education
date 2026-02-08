@@ -1,23 +1,28 @@
 ﻿@using HoE.Components.ViewModels
+@using HoE.UseCase.TAvaliable
+@inject IGetTeacherAvailabilityGridUseCase GetTeacherAvailabilityGridUseCase
 
-@page "/teacher-availability/{TeachId:int}"
+@page "/addteacheravability/{TeachId:int}"
 
 
 <h3>Ustawienie dostępności nauczyciela</h3>
 
 <AvailabilityGrid
-Slots="Slots"
+results="results"
 OnSlotClicked="ToggleSlot" />
 
 @code{
     [Parameter]
     public int TeachId { get; set; }
 
-    private List<AvailabilitySlotViewModel> Slots = new();
+    private List<AvailabilitySlotViewModel> results = new();
 
     protected override async Task OnInitializedAsync(){
-        GenerateTimeSlots();
-        await LoadBookedSlots();
+        await GetTeacherAvailabilityGridUseCase.ExecuteAsync(TeachId);
     }
 
+    private void ToggleSlot(AvailabilitySlotViewModel slot)
+    {
+        slot.IsBooked = !slot.IsBooked;
+    }
 }

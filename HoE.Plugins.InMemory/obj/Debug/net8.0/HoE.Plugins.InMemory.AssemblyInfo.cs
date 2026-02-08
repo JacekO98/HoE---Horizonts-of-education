@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HoE.Plugins.InMemory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b6960bca47bfee38aa42c130e48e206eb874125")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61df3392a238cbdc23e9dd8e56080d6a725c94cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("HoE.Plugins.InMemory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HoE.Plugins.InMemory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

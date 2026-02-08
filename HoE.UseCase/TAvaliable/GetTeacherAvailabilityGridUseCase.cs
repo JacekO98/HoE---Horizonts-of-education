@@ -26,7 +26,7 @@ namespace HoE.UseCase.TAvaliable
             var bookedSlots = await tAvaliableNewRepository.GetBookedSlots(T_ID, startD, endD);
 
             for (var date = startD; date <= endD; date = date.AddDays(1))
-            {
+            { 
                 var startT = new TimeOnly(7, 0);
                 var endT = new TimeOnly(22, 0);
                 var daySlots = new List<AvailabilityGridSlot>();

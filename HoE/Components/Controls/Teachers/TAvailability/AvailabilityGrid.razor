@@ -1,7 +1,8 @@
 ﻿@using HoE.Components.ViewModels
 
 <div class="availability-grid">
-    @foreach (var slot in Slots){
+    @foreach (var slot in results)
+    {
         <AvailabilitySlot
         Slot="slot"
         OnClick="() => OnSlotClicked.InvokeAsync(slot)" />
@@ -9,8 +10,10 @@
 </div>
 @code {
     [Parameter]
-    public List<AvailabilitySlotViewModel> Slots { get; set; } = [];
+    public List<AvailabilitySlotViewModel> results { get; set; } = [];
 
     [Parameter]
     public EventCallback<AvailabilitySlotViewModel> OnSlotClicked { get; set; }
+
+
 }
