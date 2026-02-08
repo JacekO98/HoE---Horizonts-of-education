@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe.usecase\\tavaliable\\getteacheravailabilitygridusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{830CA826-9015-4A02-AC0F-E10855DDEBEB}|HoE.UseCase\\HoE.UseCase.csproj|solutionrelative:hoe.usecase\\tavaliable\\getteacheravailabilitygridusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\components\\controls\\teachers\\tavailability\\availabilityslot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\components\\controls\\teachers\\tavailability\\availabilityslot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\components\\pages\\teachers\\addteacheravability.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\components\\controls\\teachers\\tavailability\\availabilitygrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\components\\pages\\teachers\\deleteteacher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\components\\pages\\teachers\\deleteteacher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|c:\\users\\jacuu\\source\\repos\\hoe\\hoe\\hoe\\components\\controls\\teachers\\tavailability\\availabilityslot.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{993B9B5F-639C-41DB-95F6-10A1C321125B}|HoE\\HoE.csproj|solutionrelative:hoe\\components\\controls\\teachers\\tavailability\\availabilityslot.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 7,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AvailabilitySlot.razor.css",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor.css",
+              "RelativeDocumentMoniker": "HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor.css",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor.css",
+              "RelativeToolTip": "HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-08T15:26:59.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetTeacherAvailabilityGridUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\TAvaliable\\GetTeacherAvailabilityGridUseCase.cs",
-              "RelativeDocumentMoniker": "HoE.UseCase\\TAvaliable\\GetTeacherAvailabilityGridUseCase.cs",
-              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE.UseCase\\TAvaliable\\GetTeacherAvailabilityGridUseCase.cs",
-              "RelativeToolTip": "HoE.UseCase\\TAvaliable\\GetTeacherAvailabilityGridUseCase.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAADwvxwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:08:17.188Z",
+              "Title": "AvailabilitySlot.razor",
+              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor",
+              "RelativeDocumentMoniker": "HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor",
+              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor",
+              "RelativeToolTip": "HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilitySlot.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T13:09:37.209Z",
               "EditorCaption": ""
             },
             {
@@ -49,9 +62,9 @@
               "RelativeDocumentMoniker": "HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilityGrid.razor",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilityGrid.razor",
               "RelativeToolTip": "HoE\\Components\\Controls\\Teachers\\TAvailability\\AvailabilityGrid.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T19:00:43.589Z",
+              "WhenOpened": "2026-02-08T13:01:27.189Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +75,9 @@
               "RelativeDocumentMoniker": "HoE\\Components\\Pages\\Teachers\\AddTeacherAvability.razor",
               "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Teachers\\AddTeacherAvability.razor",
               "RelativeToolTip": "HoE\\Components\\Pages\\Teachers\\AddTeacherAvability.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T18:36:36.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteTeacher.razor",
-              "DocumentMoniker": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Teachers\\DeleteTeacher.razor",
-              "RelativeDocumentMoniker": "HoE\\Components\\Pages\\Teachers\\DeleteTeacher.razor",
-              "ToolTip": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\Components\\Pages\\Teachers\\DeleteTeacher.razor",
-              "RelativeToolTip": "HoE\\Components\\Pages\\Teachers\\DeleteTeacher.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T18:34:36.565Z",
+              "WhenOpened": "2026-02-08T12:59:37.346Z",
               "EditorCaption": ""
             }
           ]

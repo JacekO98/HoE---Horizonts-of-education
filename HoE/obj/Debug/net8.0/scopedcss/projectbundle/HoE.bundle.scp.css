@@ -1,20 +1,23 @@
 /* _content/HoE/Components/Controls/Teachers/TAvailability/AvailabilitySlot.razor.rz.scp.css */
 .slot[b-2dai8ablpw] {
-    width: 80px;
-    height: 40px;
-    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    line-height: 40px;
+    user-select: none;
 }
 
-.booked[b-2dai8ablpw] {
-    background-color: #ff6b6b;
-}
+    .slot.booked[b-2dai8ablpw] {
+        background-color: red;
+        color: white;
+    }
 
-.free[b-2dai8ablpw] {
-    background-color: #51cf66;
-}
+    .slot.free[b-2dai8ablpw] {
+        background-color: green;
+        color: white;
+    }
 /* _content/HoE/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-m1v5u47zp5] {
     position: relative;

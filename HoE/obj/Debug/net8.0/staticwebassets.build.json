@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7cur4+CEi8H9ZVOnm0a03D/FaOHOOWJpTcZ6BkQ2eA4=",
+  "Hash": "YxMOzavRdXtXiyApwpnWZhbwwAccD8aiena1wW0AV9w=",
   "Source": "HoE",
   "BasePath": "_content/HoE",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "l6xaqzzzbu",
-      "Integrity": "g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=",
+      "Fingerprint": "8w0lj9t194",
+      "Integrity": "yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HoE.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "l6xaqzzzbu",
-      "Integrity": "g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=",
+      "Fingerprint": "8w0lj9t194",
+      "Integrity": "yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HoE.bundle.scp.css"
@@ -473,6 +473,96 @@
       ]
     },
     {
+      "Route": "HoE.8w0lj9t194.bundle.scp.css",
+      "AssetFile": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HoE.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Feb 2026 15:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8w0lj9t194"
+        },
+        {
+          "Name": "label",
+          "Value": "HoE.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg="
+        }
+      ]
+    },
+    {
+      "Route": "HoE.8w0lj9t194.styles.css",
+      "AssetFile": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HoE.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Feb 2026 15:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8w0lj9t194"
+        },
+        {
+          "Name": "label",
+          "Value": "HoE.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg="
+        }
+      ]
+    },
+    {
       "Route": "HoE.bundle.scp.css",
       "AssetFile": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HoE.bundle.scp.css",
       "Selectors": [],
@@ -483,7 +573,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6271"
+          "Value": "6389"
         },
         {
           "Name": "Content-Type",
@@ -491,11 +581,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=\""
+          "Value": "\"yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Feb 2026 18:29:43 GMT"
+          "Value": "Sun, 08 Feb 2026 15:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -505,97 +595,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ="
-        }
-      ]
-    },
-    {
-      "Route": "HoE.l6xaqzzzbu.bundle.scp.css",
-      "AssetFile": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HoE.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6271"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Feb 2026 18:29:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l6xaqzzzbu"
-        },
-        {
-          "Name": "label",
-          "Value": "HoE.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ="
-        }
-      ]
-    },
-    {
-      "Route": "HoE.l6xaqzzzbu.styles.css",
-      "AssetFile": "C:\\Users\\jacuu\\source\\repos\\HoE\\HoE\\HoE\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HoE.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6271"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Feb 2026 18:29:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l6xaqzzzbu"
-        },
-        {
-          "Name": "label",
-          "Value": "HoE.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ="
+          "Value": "sha256-yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg="
         }
       ]
     },
@@ -610,7 +610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6271"
+          "Value": "6389"
         },
         {
           "Name": "Content-Type",
@@ -618,11 +618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=\""
+          "Value": "\"yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Feb 2026 18:29:43 GMT"
+          "Value": "Sun, 08 Feb 2026 15:49:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -632,7 +632,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ="
+          "Value": "sha256-yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg="
         }
       ]
     }

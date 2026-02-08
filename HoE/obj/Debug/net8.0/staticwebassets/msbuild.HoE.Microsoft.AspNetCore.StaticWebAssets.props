@@ -72,23 +72,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HoE.l6xaqzzzbu.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HoE.8w0lj9t194.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>HoE</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HoE</BasePath>
-      <RelativePath>HoE.l6xaqzzzbu.bundle.scp.css</RelativePath>
+      <RelativePath>HoE.8w0lj9t194.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>l6xaqzzzbu</Fingerprint>
-      <Integrity>g4OU3p1Lyw3QXl5Zhua7SpQ7CIZ5OowqYwim5JpkHdQ=</Integrity>
+      <Fingerprint>8w0lj9t194</Fingerprint>
+      <Integrity>yL4hXLGSpgY2au1japv9nDGoFvZi9/jwpFlSPS5kWWg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HoE.l6xaqzzzbu.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HoE.8w0lj9t194.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

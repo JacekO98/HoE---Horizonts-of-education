@@ -1,19 +1,29 @@
 ﻿@using HoE.Components.ViewModels
+<p>GRID Days count: @Days.Count</p>
 
 <div class="availability-grid">
-    @foreach (var slot in results)
+    @foreach (var day in Days)
     {
-        <AvailabilitySlot
-        Slot="slot"
-        OnClick="() => OnSlotClicked.InvokeAsync(slot)" />
+        <div class="availability-day">
+            <div class="day-header">
+                @day.Date.ToString("dd.MM.yyyy")
+            </div>
+
+            <div class="day-slots">
+                @foreach (var slot in day.Slots)
+                {
+                    <AvailabilitySlot Slot="slot"
+                                      OnClick="OnSlotClicked" />
+                }
+            </div>
+        </div>
     }
 </div>
+
 @code {
     [Parameter]
-    public List<AvailabilitySlotViewModel> results { get; set; } = [];
+    public List<AvailabilityGridDayViewModel> Days { get; set; } = [];
 
     [Parameter]
-    public EventCallback<AvailabilitySlotViewModel> OnSlotClicked { get; set; }
-
-
+    public EventCallback<AvailabilityGridSlotViewModel> OnSlotClicked { get; set; }
 }

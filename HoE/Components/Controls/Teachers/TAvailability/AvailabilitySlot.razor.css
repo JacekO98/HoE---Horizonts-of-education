@@ -1,16 +1,19 @@
 ﻿.slot {
-    width: 80px;
-    height: 40px;
-    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    line-height: 40px;
+    user-select: none;
 }
 
-.booked {
-    background-color: #ff6b6b;
-}
+    .slot.booked {
+        background-color: red;
+        color: white;
+    }
 
-.free {
-    background-color: #51cf66;
-}
+    .slot.free {
+        background-color: green;
+        color: white;
+    }
